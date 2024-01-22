@@ -2,7 +2,7 @@
 
 Deterministický jednopáskový Turingův stroj je teoretický výpočetní model používaný v oblasti informatiky. Jedná se o jednoduchý stroj, který manipuluje se symboly na pásce podle tabulky pravidel. Navzdory své jednoduchosti lze deterministický jednopáskový Turingův stroj použít k modelování jakéhokoli výpočtu, který probíhá v počítači. V deterministickém Turingově stroji pro každý stav a symbol pravidla přesně určují jednu akci, která má být provedena, takže v provozu stroje není žádná nejednoznačnost nebo náhodnost. To je v kontrastu s nedeterministickým Turingovým strojem, kde pravidla mohou v dané situaci umožňovat více než jednu možnou akci. Význam Turingova stroje spočívá v jeho schopnosti modelovat logiku jakéhokoli počítačového algoritmu, což z něj činí základní koncept v teorii výpočetní techniky a studiu toho, co lze efektivně vypočítat.
 
-## Subtitle Klíčové komponenty tohoto modelu zahrnují:
+## Klíčové komponenty tohoto modelu zahrnují:
 - **Páska**:  Rozdělena na sousední buňky, z nichž každá může obsahovat symbol.
 - **Čtecí hlava**: Čte a zapisuje symboly na pásce a může posunout pásku doleva nebo doprava o jednu buňku.
 - **Stavový registr**: Obsahuje stav Turingova stroje, který se může měnit v reakci na symbol čtený čtecí hlavou.
